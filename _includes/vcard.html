@@ -1,0 +1,17 @@
+<div class="vcard">
+  <div class="fn">
+    {% if site.author %}
+      {{ site.author | escape }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </div>
+  {% if site.description %}
+  <div class="note">{{ site.description | escape }}</div>
+  {% endif %}
+  {% if site.email %}
+  <a class="email" href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a><br/>
+  {% endif %}
+  <a class="url" href="{{ site.url | "/" }}">{{ site.url | "Home" }}</a>
+  {% include social.html %}
+</div>

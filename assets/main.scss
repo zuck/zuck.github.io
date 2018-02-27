@@ -1,0 +1,123 @@
+---
+---
+
+@import 'css/eight.css/eight.css';
+@import 'https://fonts.googleapis.com/css?family=Rosario';
+
+$primary-color: #7db7ea;
+$link-color: darken($primary-color, 30%);
+$link-color-inverted: #fafafa;
+$inverted-text-color: #f0f0f0;
+$border-color-default: lighten($primary-color, 15%);
+
+$border-radius-default: .25rem;
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ul,
+ol,
+a {
+  font-family: 'Rosario', sans-serif;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color .2s ease;
+
+  :hover {
+    color: lighten($link-color, 30%);
+  }
+}
+
+.site-header {
+  background: $primary-color url('images/bg-header.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: $inverted-text-color;
+  padding: 4rem 2rem;
+  position: relative;
+  text-align: center;
+
+  a {
+    color: $link-color-inverted;
+
+    :hover {
+      color: lighten($link-color-inverted, 30%);
+    }
+  }
+
+  .site-profile-image {
+    border-radius: 50%;
+    height: 12rem;
+    margin: 0 auto 2rem;
+    overflow: hidden;
+    position: relative;
+    width: 12rem;
+
+    img {
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+    }
+  }
+
+  .site-title {
+    font-size: 4rem;
+  }
+
+  .site-description {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .site-nav {
+    margin-top: 4rem;
+
+    .page-link {
+      background-color: transparent;
+    }
+  }
+}
+
+.page-content {
+  padding: 4rem 2rem;
+}
+
+.portfolio {
+  .project-summary {
+    background: transparent no-repeat center center;
+    background-size: cover;
+    border: 1px solid $border-color-default;
+    border-radius: $border-radius-default;
+    height: 20rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    .project-details {
+      background-color: rgba(255, 255, 255, .8);
+      height: 5rem;
+      left: 0;
+      padding: 1rem;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      width: 100%;
+
+      .project-title {
+        display: block;
+        font-size: 2rem;
+      }
+    }
+  }
+}
