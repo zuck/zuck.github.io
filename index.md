@@ -12,9 +12,9 @@ I love **to code**.
 
 I have a **degree in computer science**.
 
-I started programming at **age of 10 y.o** in **Visual Basic**.
+I started coding at **age of 10 y.o** with **Visual Basic**.
 
-I enjoy programming in **C/C++**, **Python** and **HTML5/CSS/JS**.
+I enjoy to write code in **C/C++**, **Python** and **HTML5/CSS/JS**.
 
 I lived for 6 years in **China**, **Hong Kong** and **Taiwan**.
 
