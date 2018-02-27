@@ -8,7 +8,7 @@ title: About me
 
 I'm **Italian**.
 
-I'm a **romantic developer**.
+I love **to code**.
 
 I have a **degree in computer science**.
 
