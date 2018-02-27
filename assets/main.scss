@@ -8,7 +8,7 @@ $primary-color: #7db7ea;
 $link-color: darken($primary-color, 30%);
 $link-color-inverted: #fafafa;
 $inverted-text-color: #f0f0f0;
-$border-color-default: lighten($primary-color, 15%);
+$border-color-default: #c3c3c3;
 
 $border-radius-default: .25rem;
 
@@ -26,6 +26,10 @@ ul,
 ol,
 a {
   font-family: 'Rosario', sans-serif;
+}
+
+strong {
+  font-weight: 700;
 }
 
 a {
@@ -93,6 +97,10 @@ a {
   padding: 4rem 2rem;
 }
 
+.post-title {
+  margin-bottom: 2rem;
+}
+
 .portfolio {
   .project-summary {
     background: transparent no-repeat center center;
@@ -105,7 +113,6 @@ a {
     width: 100%;
 
     .project-details {
-      background-color: rgba(255, 255, 255, .8);
       height: 5rem;
       left: 0;
       padding: 1rem;
@@ -113,11 +120,17 @@ a {
       text-align: center;
       top: 0;
       width: 100%;
+    }
 
-      .project-title {
-        display: block;
-        font-size: 2rem;
-      }
+    .project-title {
+      display: block;
+      font-size: 2rem;
     }
   }
+}
+
+.site-footer {
+  color: $border-color-default;
+  padding: 2rem 0;
+  text-align: center;
 }
