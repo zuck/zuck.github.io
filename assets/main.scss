@@ -4,6 +4,12 @@
 @import 'css/eight.css/eight.css';
 @import 'https://fonts.googleapis.com/css?family=Rosario';
 
+$breakpoint-xs-min: 320px;
+$breakpoint-sm-min: 480px;
+$breakpoint-md-min: 600px;
+$breakpoint-lg-min: 980px;
+$breakpoint-xl-min: 1200px;
+
 $primary-color: #7db7ea;
 $link-color: darken($primary-color, 30%);
 $link-color-inverted: #fafafa;
@@ -46,7 +52,7 @@ a {
   background: $primary-color url('images/bg-header.jpg') no-repeat center center fixed;
   background-size: cover;
   color: $inverted-text-color;
-  padding: 4rem 2rem;
+  padding: 3rem 1.5rem;
   position: relative;
   text-align: center;
 
@@ -60,11 +66,13 @@ a {
 
   .site-profile-image {
     border-radius: 50%;
-    height: 12rem;
+    height: 50vw;
     margin: 0 auto 2rem;
+    max-height: 12rem;
+    max-width: 12rem;
     overflow: hidden;
     position: relative;
-    width: 12rem;
+    width: 50vw;
 
     img {
       margin: 0 auto;
@@ -76,16 +84,30 @@ a {
   }
 
   .site-title {
-    font-size: 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+
+    @media (min-width: $breakpoint-lg-min) {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
   }
 
   .site-description {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: .5rem;
     text-transform: uppercase;
+
+    @media (min-width: $breakpoint-lg-min) {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+    }
   }
 
   .site-nav {
-    margin-top: 4rem;
+    margin-top: 2rem;
 
     .page-link {
       background-color: transparent;
@@ -94,7 +116,7 @@ a {
 }
 
 .page-content {
-  padding: 4rem 2rem;
+  padding: 3rem 1.5rem;
 }
 
 .post-title {
@@ -102,29 +124,27 @@ a {
 }
 
 .portfolio {
+  .col {
+    display: block;
+  }
+
   .project-summary {
     background: transparent no-repeat center center;
     background-size: cover;
     border: 1px solid $border-color-default;
-    border-radius: $border-radius-default;
-    height: 20rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    height: 0;
     overflow: hidden;
+    padding-bottom: 100%;
     position: relative;
     width: 100%;
 
-    .project-details {
-      height: 5rem;
-      left: 0;
-      padding: 1rem;
+    .project-feature-image {
+      height: 100%;
+      margin: 0 auto;
       position: absolute;
-      text-align: center;
-      top: 0;
-      width: 100%;
-    }
-
-    .project-title {
-      display: block;
-      font-size: 2rem;
     }
   }
 }
@@ -133,4 +153,10 @@ a {
   color: $border-color-default;
   padding: 2rem 0;
   text-align: center;
+}
+
+@media (min-width: $breakpoint-sm-min) {
+  .xs {
+    display: none;
+  }
 }
