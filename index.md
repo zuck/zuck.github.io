@@ -25,4 +25,4 @@ I'm a **passionate reader**.
 I can speak **Italian**, **English**, **Spanish** and **Chinese (Mandarin)**, so
 feel free to contact me!
 
-I'm on [GitHub](https://github.com/{{ site.footer-links.github }}).
+I'm on [GitHub](https://github.com/{{ site.github_username }}) and [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username}}).
