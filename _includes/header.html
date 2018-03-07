@@ -14,6 +14,8 @@
     <div class="site-description">{{ site.description | escape }}</div>
     {% endif %}
 
+    {% include social.html %}
+
     {% if page_paths %}
     <nav class="site-nav btn-group stackable">
     {% for path in page_paths %}

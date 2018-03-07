@@ -7,12 +7,22 @@ layout: page
   {{ content }}
 
   {% if site.projects.size > 0 %}
-  <div class="row">
+  <div class="row stackable expanded">
     {% for project in site.projects %}
-    <div class="col fourth">
-      <a class="project-summary" href="{{ project.url | relative_url }}" title="{{ project.title | escape }}">
-        <img src="{{ project.feature-image | escape }}" class="project-feature-image" alt="{{ project.title | escape }}"/>
-      </a>
+    <div class="col third">
+      <div class="project-summary">
+        <h4 class="project-title">{{ project.title | escape }}</h4>
+        <a
+          class="project-feature-image"
+          href="{{ project.url | relative_url }}"
+          title="{{ project.brief | escape }}"
+        >
+          <img
+            src="{{ project.feature-image | escape }}"
+            alt="{{ project.title | escape }}"
+          />
+        </a>
+      </div>
     </div>
     {% endfor %}
   </div>

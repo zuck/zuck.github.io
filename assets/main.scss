@@ -10,7 +10,7 @@ $breakpoint-md-min: 600px;
 $breakpoint-lg-min: 980px;
 $breakpoint-xl-min: 1200px;
 
-$primary-color: #7db7ea;
+$primary-color: #6da7da;
 $link-color: darken($primary-color, 30%);
 $link-color-inverted: #fafafa;
 $inverted-text-color: #f0f0f0;
@@ -18,24 +18,25 @@ $border-color-default: #c3c3c3;
 
 $border-radius-default: .25rem;
 
-html,
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
 blockquote,
-ul,
-ol,
 a {
   font-family: 'Rosario', sans-serif;
 }
 
+p,
+ol,
+ul {
+  font-size: 1.2rem;
+}
+
 strong {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 a {
@@ -45,6 +46,21 @@ a {
 
   :hover {
     color: lighten($link-color, 30%);
+  }
+}
+
+.social-media-list {
+  text-align: center;
+
+  .svg-icon {
+    fill: $inverted-text-color;
+    height: 16px;
+    margin: 2rem 2rem 0;
+    width: 16px;
+  }
+
+  .username {
+    display: none;
   }
 }
 
@@ -145,26 +161,32 @@ a {
 
 .portfolio {
   .col {
-    display: block;
+    min-height: 300px;
   }
 
   .project-summary {
-    background: transparent no-repeat center center;
-    background-size: cover;
-    border: 1px solid $border-color-default;
-    border-radius: 50%;
-    cursor: pointer;
-    display: inline-flex;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 100%;
-    position: relative;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 4rem;
+  }
 
-    .project-feature-image {
-      height: 100%;
-      margin: 0 auto;
-      position: absolute;
+  .project-title {
+    text-align: center;
+  }
+
+  .project-feature-image {
+    background-color: lighten($border-color-default, 20%);
+    border: 1px solid $border-color-default;
+    border-radius: .25rem;
+    height: 200px;
+    order: -1;
+    overflow: hidden;
+    padding: 1rem;
+
+    img {
+      height: 80%;
+      margin: 10% auto;
     }
   }
 }
@@ -173,6 +195,10 @@ a {
   color: $border-color-default;
   padding: 2rem 0;
   text-align: center;
+
+  .copyright {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: $breakpoint-sm-min) {
