@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: project
 title: ODIN OS™
 brief: A Linux-based operative system oriented to security
 feature-image: /assets/images/odinos.png
 ---
-
-<img src="{{ page.feature-image }}" alt="{{ page.title }}"/>
 
 **ODIN OS™** is an open-source Linux-based operative system used on *pinKey™ Touch* devices by [Card Tech srl].
 

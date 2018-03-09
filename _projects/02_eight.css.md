@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: eight.css
 brief: A micro (and modular) CSS framework based on 8pt grid
 feature-image: /assets/images/eight.css.svg

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Quasar Framework
 brief:
 feature-image: /assets/images/quasar-logo.svg
