@@ -15,4 +15,4 @@ The project is based on the following powerful technologies:
   * GLEW
   * GLFW
 
-More info at: http://leaf3d.github.io/website/
+<a class="btn" href="http://leaf3d.github.io/website/">More</a>
