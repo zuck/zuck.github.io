@@ -11,4 +11,6 @@ I designed the new official logotype and helped improving general project brandi
 
 I helped on improving GitHub's *Electron* integration too.
 
+I'm currently working on new main project website.
+
 <a class="btn" href="http://quasar-framework.org/">More</a>
