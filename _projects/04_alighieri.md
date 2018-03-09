@@ -7,4 +7,4 @@ feature-image: /assets/images/alighieri.jpg
 
 A distraction-free tool for novelists and writers.
 
-<a class="btn" href="https://zuck.github.io/alighieri/">More</a>
+<a class="btn" href="https://github.com/zuck/alighieri">More</a>

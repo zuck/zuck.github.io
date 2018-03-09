@@ -9,4 +9,4 @@ Eight.css is a modular CSS framework, so you can use it as a single bundle or im
 
 All eight.css's CSS files are minimized but source maps are provided for reach one of them.
 
-<a class="btn" href="https://zuck.github.io/eight.css/">More</a>
+<a class="btn" href="https://github.com/zuck/eight.css">More</a>
