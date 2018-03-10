@@ -1,7 +1,7 @@
 ---
 layout: project
 title: l'Acquolina in Bocca
-brief:
+brief: Corporate e-commerce website for this pizza brand in China
 feature-image: /assets/images/acquolina.svg
 ---
 

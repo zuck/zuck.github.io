@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Quasar Framework
-brief:
+brief: A front-end framework to code for all platforms simultaneously, based on Vue.js
 feature-image: /assets/images/quasar-logo.svg
 ---
 
