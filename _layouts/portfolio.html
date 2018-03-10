@@ -6,26 +6,23 @@ layout: page
 
   {{ content }}
 
-  {% if site.projects.size > 0 %}
-  <div class="row stackable expanded">
-    {% for project in site.projects %}
-    <div class="col third">
-      <div class="project-summary">
-        <h4 class="project-title">{{ project.title | escape }}</h4>
-        <a
-          class="project-feature-image"
-          href="{{ project.url | relative_url }}"
-          title="{{ project.brief | escape }}"
-        >
-          <img
-            src="{{ project.feature-image | escape }}"
-            alt="{{ project.title | escape }}"
-          />
-        </a>
-      </div>
+  {% for project in site.projects %}
+  <div class="project-summary row stackable expanded">
+    <div class="project-title col">
+      <h4>{{ project.title | escape }}</h4>
+      <p>{{ project.brief | escape }}</p>
     </div>
-    {% endfor %}
+    <a
+      class="project-feature-image col"
+      href="{{ project.url | relative_url }}"
+      title="{{ project.brief | escape }}"
+    >
+      <img
+        src="{{ project.feature-image | escape }}"
+        alt="{{ project.title | escape }}"
+      />
+    </a>
   </div>
-  {% endif %}
+  {% endfor %}
 
 </div>

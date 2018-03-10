@@ -172,29 +172,24 @@ a {
 }
 
 .portfolio {
-  .col {
-    min-height: 300px;
-  }
-
   .project-summary {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
     margin-bottom: 4rem;
+    align-items: center;
   }
 
   .project-title {
-    text-align: center;
+    margin-left: 4rem;
+
+    h4 {
+      font-size: 2em;
+    }
   }
 
   .project-feature-image {
-    background-color: lighten($border-color-default, 20%);
-    border: 1px solid $border-color-default;
-    border-radius: .25rem;
-    height: 200px;
+    max-width: 180px;
+    height: 180px;
     order: -1;
     overflow: hidden;
-    padding: 1rem;
 
     img {
       height: 80%;
