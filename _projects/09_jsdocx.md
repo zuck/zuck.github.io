@@ -11,4 +11,6 @@ I've found several existing libraries, but they didn't match my needs, so I deci
 
 That's how **jsdocx** was born!
 
+**TECH:** Javascript
+
 <a class="btn" href="https://github.com/zuck/jsdocx">More</a>

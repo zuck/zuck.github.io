@@ -34,6 +34,8 @@ Following the pattern of several other embedded operative systems, the ODIN OS�
 
 ![ODIN OS™ Architecture](/assets/images/odin-os-architecture.jpg)
 
+**TECH:** C/C++, Qt, QML, QtQuick
+
 > *ODIN OS™* and *pinKey™* are trademarks registered by [Card Tech srl].
 >
 > *Qt* is a trademark registered by [The Qt Company].

@@ -7,4 +7,6 @@ feature-image: /assets/images/acquolina.svg
 
 Stay tuned...
 
+**TECH:** Django, Python, Javascript, CSS3, HTML5
+
 <a class="btn" href="http://www.acquolina.biz">More</a>

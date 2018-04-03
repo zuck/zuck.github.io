@@ -11,4 +11,6 @@ Being modular means you can use it as a single bundle or importing only the modu
 
 All eight.css's CSS files are minimized but source maps are provided for reach one of them.
 
+**TECH:** CSS3, Stylus, HTML5
+
 <a class="btn" href="https://github.com/zuck/eight.css">More</a>
