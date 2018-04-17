@@ -9,6 +9,6 @@ feature-link: https://github.com/zuck/alighieri
 
 A distraction-free tool for novelists and writers.
 
-<div class="row">
+<div class="row stackable">
   <img src="/assets/images/alighieri-overview.png" alt="Alighieri"/>
 </div>

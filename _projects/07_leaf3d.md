@@ -11,13 +11,13 @@ The aim of **leaf3d** is to create a lightweight and cross-platform rendering en
 
 The project is based on the following powerful technologies:
 
-  * OpenGL
-  * CMake
-  * GLM
-  * GLEW
-  * GLFW
+* OpenGL
+* CMake
+* GLM
+* GLEW
+* GLFW
 
-<div class="row">
+<div class="row stackable">
   <img class="col half" src="/assets/images/grass.jpg" alt="leaf3d"/>
   <img class="col half" src="/assets/images/planet.jpg" alt="leaf3d"/>
   <img class="col half" src="/assets/images/lamp.jpg" alt="leaf3d"/>

@@ -10,7 +10,7 @@ feature-link: http://www.acquolina.biz
 * Full redesign of company brand & visual identity.
 * Development of company website & e-commerce platform.
 
-<div class="row">
+<div class="row stackable">
   <img src="/assets/images/acquolina-home.jpg" alt="acquolina.biz"/>
   <img src="/assets/images/acquolina-cart.jpg" alt="acquolina.biz"/>
 </div>
