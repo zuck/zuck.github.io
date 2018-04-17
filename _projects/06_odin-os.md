@@ -3,7 +3,10 @@ layout: project
 title: ODIN OS™
 brief: A Linux-based operative system oriented to security
 feature-image: /assets/images/odinos.png
+tech: C/C++, Qt, QML, QtQuick
 ---
+
+> *ODIN OS™* and *pinKey™* are trademarks registered by [Card Tech srl].
 
 **ODIN OS™** is an open-source Linux-based operative system used on *pinKey™ Touch* devices by [Card Tech srl].
 
@@ -33,12 +36,6 @@ All applications running on ODIN OS™ can access to sensitive information only 
 Following the pattern of several other embedded operative systems, the ODIN OS™ is based on three logical layers, described below.
 
 ![ODIN OS™ Architecture](/assets/images/odin-os-architecture.jpg)
-
-**TECH:** C/C++, Qt, QML, QtQuick
-
-> *ODIN OS™* and *pinKey™* are trademarks registered by [Card Tech srl].
->
-> *Qt* is a trademark registered by [The Qt Company].
 
 [Card Tech srl]: https://www.card-tech.it
 [The Qt Company]: https://www.qt.io/

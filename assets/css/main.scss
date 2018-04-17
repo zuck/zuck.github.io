@@ -1,9 +1,6 @@
 ---
 ---
 
-@import 'css/eight.css/eight.css';
-@import 'https://fonts.googleapis.com/css?family=Rosario';
-
 $breakpoint-xs-min: 320px;
 $breakpoint-sm-min: 480px;
 $breakpoint-md-min: 600px;
@@ -14,19 +11,9 @@ $primary-color: #6da7da;
 $link-color: darken($primary-color, 30%);
 $link-color-inverted: #fafafa;
 $inverted-text-color: #f0f0f0;
-$border-color-default: #c3c3c3;
+$border-color-default: #c0c0c0;
 
 $border-radius-default: .25rem;
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-  font-family: 'Rosario', sans-serif;
-}
 
 p,
 ol,
@@ -53,6 +40,33 @@ a {
   }
 }
 
+.btn {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  background-color: $link-color;
+  color: $inverted-text-color;
+}
+
+.btn:hover {
+  background-color: $primary-color;
+}
+
+.lightbox {
+  padding: 3rem 1.5rem;
+  margin: 2rem 0 0;
+  background: $primary-color url('../images/bg-header.jpg') no-repeat center center fixed;
+  color: $inverted-text-color;
+  font-weight: 500;
+
+  strong {
+    font-weight: 700;
+  }
+
+  .btn {
+    margin-top: 2rem;
+  }
+}
+
 .social-media-list {
   text-align: center;
 
@@ -69,7 +83,7 @@ a {
 }
 
 .site-header {
-  background: $primary-color url('images/bg-header.jpg') no-repeat center center fixed;
+  background: $primary-color url('../images/bg-header.jpg') no-repeat center center fixed;
   background-size: cover;
   color: $inverted-text-color;
   padding: 3rem 1.5rem;
@@ -156,18 +170,19 @@ a {
 }
 
 .page-content {
-  padding: 3rem 1.5rem;
+  padding: 3rem 0;
 
   .feature-image {
     height: 160px;
   }
 
   img {
-    margin: 3rem auto;
+    margin: 5rem auto;
   }
 }
 
 .post-title {
+  text-align: center;
   margin-bottom: 2rem;
 }
 

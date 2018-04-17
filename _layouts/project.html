@@ -1,7 +1,21 @@
 ---
-layout: page
+layout: default
 ---
+
+<div class="page-title container">
+  <h1>{{ page.title }}</h1>
+  <h4 class="subtitle">{{ page.brief }}</h4>
+</div>
 
 <img class="feature-image" src="{{ page.feature-image }}" alt="{{ page.title }}"/>
 
-{{ content }}
+<div class="container">{{ content }}</div>
+
+<div class="lightbox">
+  <p style="text-align: center">
+    <strong>TECH:</strong> {{ page.tech }}
+  </p>
+  {% if page.feature-link %}
+  <p style="text-align: center"><a class="btn" href="{{ page.feature-link }}">More</a></p>
+  {% endif %}
+</div>
